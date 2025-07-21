@@ -1,12 +1,13 @@
 # Ignore backend node modules
 /backend/node_modules
+/alumniBackend/node_modules
 
 # Ignore frontend node modules
 /Frontend/node_modules
+/alumni-network/node_modules
 
 # Ignore environment files
 /backend/.env
+/alumniBackend/.env
 /Frontend/.env
-
-# Optional: ignore build if React creates one
-/Frontend/build
+/alumni-network/.env
