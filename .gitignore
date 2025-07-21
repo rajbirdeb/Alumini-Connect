@@ -1,13 +1,11 @@
-# Ignore backend node modules
-/backend/node_modules
-/alumniBackend/node_modules
-
-# Ignore frontend node modules
-/Frontend/node_modules
-/alumni-network/node_modules
+# Ignore all node_modules directories
+node_modules/
+**/node_modules/
 
 # Ignore environment files
-/backend/.env
-/alumniBackend/.env
-/Frontend/.env
-/alumni-network/.env
+*.env
+**/.env
+
+# Ignore build folders (optional if React/Vite creates one)
+build/
+**/build/
